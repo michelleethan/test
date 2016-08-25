@@ -1,0 +1,191 @@
+body {
+    background-image: url("rubber_grip.png");
+    background-repeat: repeat;
+}
+
+body {
+	/*background: #380000;*/
+	font-family:Myriad, Helvetica, Arial, sans-serif;
+	font-size:90%;
+	margin:50px auto;
+	text-align:center;
+	line-height:1.4em;
+	width:1060px;
+}
+p{
+	color: white;
+background-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial;
+	font-size:1.5em;
+	letter-spacing:0.02em;
+
+}
+img {
+   padding:1px;
+   border:1px solid #FFFFFF;
+}
+
+a {
+font-family:Arial,Georgia,serif; 
+font-size:large;
+}
+
+a:link {
+color:green;
+text-decoration: none;
+}
+
+a:visited {
+color: #000000;
+}
+
+a:hover {
+text-decoration: none; 
+color: #9F000F;
+font-weight:bold;
+}
+
+a:active {
+color: red;
+
+}
+
+header {
+	display:block;
+	position:relative;
+	text-align:left;
+}
+
+Header, section, article, footer {
+	padding:10px 20px 20px;
+	margin:10px;
+	border:1px solid #FFFFFF;
+	border-radius:8px;
+	-webkit-border-radius:.8em;
+	-moz-border-radius:.8em;
+	background:#000000;
+}
+
+header img {
+	position:absolute;
+	left:10px;
+	top:10px;
+      height:90%; 
+}
+
+header h1 {
+	font-size:4.3em;
+	text-transform:none;
+	text-align:center;
+	color: white;
+	font-family: "Impact";
+}
+
+header h2 {
+	margin:10px 0px 20px;
+	font-size:1.3em;
+	text-align:center
+}
+
+nav {
+	text-align:center;
+	display:block;
+}
+
+nav ul {
+	padding:0px;
+	list-style-type:none;
+	display:inline;
+}
+
+nav li {
+	margin:0px 10px;
+	padding:12px;
+	list-style-type:none;
+	display:inline; 
+	border-radius:8px;
+	background: #C0C0C0;
+}
+
+nav a:link, nav a:visited {
+	font-size:1.4em;
+	font-weight:normal;
+}
+
+section {
+	float:left;
+	width:250px;
+	text-align:left;
+}
+
+section ul {
+	padding:0px;
+	border-top:1px solid #C0C0C0;
+	margin:14px 0px;
+}
+
+section li {
+	margin:0px;
+	padding:0px;
+}
+
+section li a:link, section li a:visited {
+	float:left;
+	width:96%;
+	padding:3px 1%;
+	border-radius:8px;
+}
+
+section li a:hover {
+	background:#C0C0C0;
+}
+
+article {
+	float:right;
+	width:686px;
+	text-align:left;
+}
+
+section h1, article h1 {
+	text-align:center;	
+	color:#000000;
+ 	background:#C0C0C0;
+	padding:7px 0px 7px 0px;
+	border-radius:8px;
+	text-shadow:0 1px 0 #333300;
+	border-color: #00FF00;
+}
+
+article h2, article h3, article h4, article h5, article h6  {
+	color:#FFFFFF;
+	padding:7px 10px 12px 30px;
+	text-shadow:0 1px 0 #333300;
+}
+
+article img {
+    	float: right; 
+    	margin: 10px; 
+}
+
+article p:first-of-type {
+	font-family:Helvetica, Arial, serif;
+	border-top:1px dotted #999900;
+	border-bottom:1px dotted #999900;
+	padding:10px 0px;
+	color:#FFFFFF;
+}
+
+footer {
+	display:block;
+	clear:both;
+	width:998px;
+}
+
+footer a {
+	margin:0px 5px;
+}
+li{
+	color:white; 
+}
